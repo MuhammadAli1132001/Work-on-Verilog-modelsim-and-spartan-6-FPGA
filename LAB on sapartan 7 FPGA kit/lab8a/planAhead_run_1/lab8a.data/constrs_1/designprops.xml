@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="3">
+	<CompatParts>
+	</CompatParts>
+	<ConfigModes>
+		<Mode Id="JTAG"/>
+	</ConfigModes>
+	<PortProps>
+		<Port Name="seg7[6]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[5]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[4]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[3]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[2]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[1]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="seg7[0]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="zero" OffChipTerm="NONE"/>
+		<Port Name="one" OffChipTerm="NONE"/>
+		<Port Name="clk_100Mhz" OffChipTerm="NONE"/>
+		<Port Name="reset" OffChipTerm="NONE"/>
+		<Port Name="out" OffChipTerm="FP_VTT_50"/>
+	</PortProps>
+</Compat>
+

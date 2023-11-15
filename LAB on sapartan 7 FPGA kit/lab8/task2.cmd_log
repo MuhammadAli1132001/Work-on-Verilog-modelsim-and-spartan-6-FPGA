@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "task2.ngc" task2.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o task2_map.ncd task2.ngd task2.pcf 
+par -w -intstyle ise -ol high -mt off task2_map.ncd task2.ncd task2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml task2.twx task2.ncd -o task2.twr task2.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "task2.ngc" task2.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o task2_map.ncd task2.ngd task2.pcf 
+par -w -intstyle ise -ol high -mt off task2_map.ncd task2.ncd task2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml task2.twx task2.ncd -o task2.twr task2.pcf -ucf task2.ucf 
+bitgen -intstyle ise -f task2.ut task2.ncd 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/task2.syr" 

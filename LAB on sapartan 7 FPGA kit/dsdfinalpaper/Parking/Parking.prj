@@ -1,0 +1,6 @@
+verilog work "D_FF.v"
+verilog work "Sync.v"
+verilog work "Seven_Seg_Dec.v"
+verilog work "Pulse.v"
+verilog work "Clk_Div.v"
+verilog work "Parking.v"

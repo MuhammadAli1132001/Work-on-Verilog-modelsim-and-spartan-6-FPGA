@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/seq_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "seq_detector.ngc" seq_detector.ngd  

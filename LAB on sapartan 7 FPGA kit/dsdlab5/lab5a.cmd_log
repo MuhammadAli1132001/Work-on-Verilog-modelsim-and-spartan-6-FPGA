@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "lab5a.ngc" lab5a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5a_map.ncd lab5a.ngd lab5a.pcf 
+par -w -intstyle ise -ol high -mt off lab5a_map.ncd lab5a.ncd lab5a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5a.twx lab5a.ncd -o lab5a.twr lab5a.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "lab5a.ngc" lab5a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5a_map.ncd lab5a.ngd lab5a.pcf 
+par -w -intstyle ise -ol high -mt off lab5a_map.ncd lab5a.ncd lab5a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5a.twx lab5a.ncd -o lab5a.twr lab5a.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "lab5a.ngc" lab5a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5a_map.ncd lab5a.ngd lab5a.pcf 
+par -w -intstyle ise -ol high -mt off lab5a_map.ncd lab5a.ncd lab5a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5a.twx lab5a.ncd -o lab5a.twr lab5a.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5counter.ucf -p xc6slx9-csg324-2 "lab5a.ngc" lab5a.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5a_map.ncd lab5a.ngd lab5a.pcf 
+par -w -intstyle ise -ol high -mt off lab5a_map.ncd lab5a.ncd lab5a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5a.twx lab5a.ncd -o lab5a.twr lab5a.pcf -ucf lab5counter.ucf 
+bitgen -intstyle ise -f lab5a.ut lab5a.ncd 

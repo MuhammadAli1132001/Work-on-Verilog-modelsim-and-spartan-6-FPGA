@@ -1,0 +1,12 @@
+Release 12.3 Drc M.70d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Wed Jul 27 10:03:56 2022
+
+drc -z Lock_SD.ncd Lock_SD.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net state[2]_PWR_7_o_Mux_18_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

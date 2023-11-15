@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 "L2P.ngc" L2P.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o L2P_map.ncd L2P.ngd L2P.pcf 
+par -w -intstyle ise -ol high -mt off L2P_map.ncd L2P.ncd L2P.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml L2P.twx L2P.ncd -o L2P.twr L2P.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab7/L2P.syr" 

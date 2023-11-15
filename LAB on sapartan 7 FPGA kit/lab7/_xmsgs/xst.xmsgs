@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\Users\Muhammad Ali khan\DSD\lab7\leveltopulseconverter.v" Line 55: Assignment to <arg fmt="%s" index="1">clk1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">/users/muhammad ali khan/dsd/lab7/leveltopulseconverter.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">cd</arg>&gt; of block &lt;<arg fmt="%s" index="4">clk_divider</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">leveltopulseconverter</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3010" delta="old" >&quot;<arg fmt="%s" index="1">/users/muhammad ali khan/dsd/lab7/leveltopulseconverter.v</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Output port &lt;<arg fmt="%s" index="3">clk1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cd</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

@@ -1,0 +1,36 @@
+Release 12.3 ngdbuild M.70d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\12.3\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 task2.ngc
+task2.ngd
+
+Reading NGO file "C:/Users/Muhammad Ali khan/DSD/lab8/task2.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "task2.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4381420 kilobytes
+
+Writing NGD file "task2.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "task2.bld"...

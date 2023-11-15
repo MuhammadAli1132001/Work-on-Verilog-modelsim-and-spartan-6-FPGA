@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/labt1.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/labt1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "labt1.ngc" labt1.ngd  

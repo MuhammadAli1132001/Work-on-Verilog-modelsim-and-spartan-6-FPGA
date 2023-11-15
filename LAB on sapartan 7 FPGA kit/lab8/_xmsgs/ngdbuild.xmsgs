@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;CD1/CLK_100MHz&quot; LOC = V10;&gt; [task2.ucf(4)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">CD1/CLK_100MHz</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;CD1/CLK_100MHz&quot; LOC = V10;&gt; [task2.ucf(4)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;ss2/ff1/d&quot; LOC = A2;&gt; [task2.ucf(5)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">ss2/ff1/d</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;ss2/ff1/d&quot; LOC = A2;&gt; [task2.ucf(5)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="error" file="ConstraintSystem" num="59" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;t1/out&quot; LOC = V3;&gt; [task2.ucf(7)]</arg>: <arg fmt="%s" index="2">NET</arg> &quot;<arg fmt="%s" index="3">t1/out</arg>&quot; not found.  Please verify that:
+1. The specified design element actually exists in the original design.
+2. The specified object is spelled correctly in the constraint source file.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;t1/out&quot; LOC = V3;&gt; [task2.ucf(7)]&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+</messages>
+

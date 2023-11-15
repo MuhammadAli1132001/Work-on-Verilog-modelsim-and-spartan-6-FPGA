@@ -1,0 +1,8 @@
+Release 12.3 Drc M.70d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 21 12:57:58 2022
+
+drc -z lab5a.ncd lab5a.pcf
+
+DRC detected 0 errors and 0 warnings.

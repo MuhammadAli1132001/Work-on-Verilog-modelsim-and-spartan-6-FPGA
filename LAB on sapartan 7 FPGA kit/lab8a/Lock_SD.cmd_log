@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 "Lock_SD.ngc" Lock_SD.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Lock_SD_map.ncd Lock_SD.ngd Lock_SD.pcf 
+par -w -intstyle ise -ol high -mt off Lock_SD_map.ncd Lock_SD.ncd Lock_SD.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lock_SD.twx Lock_SD.ncd -o Lock_SD.twr Lock_SD.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-2 "Lock_SD.ngc" Lock_SD.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Lock_SD_map.ncd Lock_SD.ngd Lock_SD.pcf 
+par -w -intstyle ise -ol high -mt off Lock_SD_map.ncd Lock_SD.ncd Lock_SD.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lock_SD.twx Lock_SD.ncd -o Lock_SD.twr Lock_SD.pcf 
+bitgen -intstyle ise -f Lock_SD.ut Lock_SD.ncd 
+bitgen -intstyle ise -f Lock_SD.ut Lock_SD.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lock_SD.ucf -p xc6slx9-ftg256-2 "Lock_SD.ngc" Lock_SD.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Lock_SD_map.ncd Lock_SD.ngd Lock_SD.pcf 
+par -w -intstyle ise -ol high -mt off Lock_SD_map.ncd Lock_SD.ncd Lock_SD.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lock_SD.twx Lock_SD.ncd -o Lock_SD.twr Lock_SD.pcf -ucf Lock_SD.ucf 
+bitgen -intstyle ise -f Lock_SD.ut Lock_SD.ncd 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lock_SD.ucf -p xc6slx9-ftg256-2 "Lock_SD.ngc" Lock_SD.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Lock_SD_map.ncd Lock_SD.ngd Lock_SD.pcf 
+par -w -intstyle ise -ol high -mt off Lock_SD_map.ncd Lock_SD.ncd Lock_SD.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lock_SD.twx Lock_SD.ncd -o Lock_SD.twr Lock_SD.pcf -ucf Lock_SD.ucf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lock_SD.ucf -p xc6slx9-ftg256-2 "Lock_SD.ngc" Lock_SD.ngd  
+map -intstyle ise -p xc6slx9-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Lock_SD_map.ncd Lock_SD.ngd Lock_SD.pcf 
+par -w -intstyle ise -ol high -mt off Lock_SD_map.ncd Lock_SD.ncd Lock_SD.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Lock_SD.twx Lock_SD.ncd -o Lock_SD.twr Lock_SD.pcf -ucf Lock_SD.ucf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.syr" 

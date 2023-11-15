@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "lab5counter.ngc" lab5counter.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5counter_map.ncd lab5counter.ngd lab5counter.pcf 
+par -w -intstyle ise -ol high -mt off lab5counter_map.ncd lab5counter.ncd lab5counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5counter.twx lab5counter.ncd -o lab5counter.twr lab5counter.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 "lab5counter.ngc" lab5counter.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5counter_map.ncd lab5counter.ngd lab5counter.pcf 
+par -w -intstyle ise -ol high -mt off lab5counter_map.ncd lab5counter.ncd lab5counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5counter.twx lab5counter.ncd -o lab5counter.twr lab5counter.pcf 
+bitgen -intstyle ise -f lab5counter.ut lab5counter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5counter.ucf -p xc6slx9-csg324-2 "lab5counter.ngc" lab5counter.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5counter_map.ncd lab5counter.ngd lab5counter.pcf 
+par -w -intstyle ise -ol high -mt off lab5counter_map.ncd lab5counter.ncd lab5counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5counter.twx lab5counter.ncd -o lab5counter.twr lab5counter.pcf -ucf lab5counter.ucf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lab5counter.ucf -p xc6slx9-csg324-2 "lab5counter.ngc" lab5counter.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o lab5counter_map.ncd lab5counter.ngd lab5counter.pcf 
+par -w -intstyle ise -ol high -mt off lab5counter_map.ncd lab5counter.ncd lab5counter.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml lab5counter.twx lab5counter.ncd -o lab5counter.twr lab5counter.pcf -ucf lab5counter.ucf 

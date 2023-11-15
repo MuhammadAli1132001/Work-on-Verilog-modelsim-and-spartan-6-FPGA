@@ -1,0 +1,7 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CD1/CLK_100MHz" LOC = V10;
+NET "ss2/ff1/d" LOC = A2;
+NET "out" LOC = A3;
+NET "t1/out" LOC = V3;

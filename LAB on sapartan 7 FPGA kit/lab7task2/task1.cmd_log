@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/DSD Lab/2 cross 1 mux/lab4/lab7task2/task1.xst" -ofn "D:/DSD Lab/2 cross 1 mux/lab4/lab7task2/task1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-2 "task1.ngc" task1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task1_map.ncd task1.ngd task1.pcf 
+par -w -intstyle ise -ol high -mt off task1_map.ncd task1.ncd task1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml task1.twx task1.ncd -o task1.twr task1.pcf -ucf task2.ucf 
+bitgen -intstyle ise -f task1.ut task1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-2 "task1.ngc" task1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task1_map.ncd task1.ngd task1.pcf 
+par -w -intstyle ise -ol high -mt off task1_map.ncd task1.ncd task1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml task1.twx task1.ncd -o task1.twr task1.pcf -ucf task2.ucf 
+bitgen -intstyle ise -f task1.ut task1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-2 "task1.ngc" task1.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o task1_map.ncd task1.ngd task1.pcf 
+par -w -intstyle ise -ol high -mt off task1_map.ncd task1.ncd task1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml task1.twx task1.ncd -o task1.twr task1.pcf -ucf task2.ucf 
+bitgen -intstyle ise -f task1.ut task1.ncd 

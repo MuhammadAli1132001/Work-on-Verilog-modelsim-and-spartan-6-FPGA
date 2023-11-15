@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Jun 03 10:57:30 2022
+# Process ID: 1344
+# Log file: D:/DSD Lab/2 cross 1 mux/lab4/lab7task2/planAhead_run_1/planAhead.log
+# Journal file: D:/DSD Lab/2 cross 1 mux/lab4/lab7task2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/DSD Lab/2 cross 1 mux/lab4/lab7task2/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports in]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports out]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports rst]
+endgroup
+set_property is_loc_fixed false [get_ports [list  rst]]
+set_property is_loc_fixed true [get_ports [list  rst]]
+set_property is_loc_fixed false [get_ports [list  rst]]
+set_property is_loc_fixed true [get_ports [list  rst]]
+set_property pulltype PULLUP [get_ports [list rst]]
+set_property pulltype PULLUP [get_ports [list in]]
+save_constraints

@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# PlanAhead v12.3
+# Build 101344 by hdbuild on Sat Sep  4 00:26:34 MDT 2010
+# Start of session at: Thu Apr 21 13:02:42 2022
+# Process ID: 13228
+# Log file: C:/Users/Muhammad Ali khan/DSD/dsdlab5/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Muhammad Ali khan/DSD/dsdlab5/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source {C:/Users/Muhammad Ali khan/DSD/dsdlab5/pa.fromHdl.tcl}
+# create_project -name dsdlab5 -dir "C:/Users/Muhammad Ali khan/DSD/dsdlab5/planAhead_run_1" -part xc6slx9csg324-2
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top lab5a $srcset
+# set_param project.paUcfFile  "lab5counter.ucf"
+# set hdlfile [add_files [list {lab5a.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "lab5counter.ucf" -fileset [get_property constrset [current_run]]
+# add_files -norecurse { {C:/Users/Muhammad Ali khan/DSD/dsdlab5} }
+# open_rtl_design -part xc6slx9csg324-2
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\Users\Muhammad Ali khan\DSD\dsdlab5\lab5a.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <lab5a>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\Users\Muhammad Ali khan\DSD\dsdlab5\lab5counter.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <lab5a>.
+WARN: [HD-RTLIN 1] C:\Users\Muhammad Ali khan\DSD\dsdlab5\lab5counter.v(21) Illegal redeclaration of module <lab5a>.
+INFO: [HD-RTLIN 2] Parsing module <lab5counter>.
+INFO: [HD-RTLIN 2] Elaborating module <lab5a>.
+WARN: [HD-RTLIN 1] C:\Users\Muhammad Ali khan\DSD\dsdlab5\lab5counter.v(36) Result of 2-bit expression is truncated to fit in 1-bit target.
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/csg324/Package.xml
+INFO: [HD-ArchReader 13] Loading package pin functions from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/PinFunctions.xml...
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/IOStandards.xml
+INFO: [HD-ArchReader 12] Loading device configuration modes from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/ConfigModes.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\lab5counter.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\lab5counter.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.3 by hdbuild
+          on  Sat Sep  4 00:26:34 MDT 2010
+  Report: by Muhammad Ali khan on host DESKTOP-I9MQBNU, pid 13228
+          on Thu Apr 21 13:02:57 2022
+
+REPORT SUMMARY
+            Netlist: lab5a
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 3
+
+REPORT DETAILS
+ULMN#1
+Unknown block name - <no location>
+Block name RTL_FDRSE is not a valid Unisim for the specified architecture. No block of type RTL_FDRSE exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#2
+Unknown block name - <no location>
+Block name RTL_PWR is not a valid Unisim for the specified architecture. No block of type RTL_PWR exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+ULMN#3
+Unknown block name - <no location>
+Block name RTL_GND is not a valid Unisim for the specified architecture. No block of type RTL_GND exists in the Unisim library for the spartan6lx architecture.
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

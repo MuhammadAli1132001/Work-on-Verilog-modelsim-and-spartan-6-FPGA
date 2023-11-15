@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="7">
+	<FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+		<Filter Type="Srcs"/>
+		<File Path="C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.v">
+		</File>
+		<File Path="C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.v">
+			<FileInfo RelPath="lab5counter.v"/>
+		</File>
+		<File Path="C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5counter.ngc">
+			<FileInfo RelPath="lab5counter.ngc"/>
+		</File>
+		<File Path="C:/Users/Muhammad Ali khan/DSD/dsdlab5/lab5a.ngc">
+			<FileInfo RelPath="lab5a.ngc"/>
+		</File>
+		<Config>
+			<Option Name="DesignMode" Val="RTL"/>
+			<Option Name="TopModule" Val="lab5a"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

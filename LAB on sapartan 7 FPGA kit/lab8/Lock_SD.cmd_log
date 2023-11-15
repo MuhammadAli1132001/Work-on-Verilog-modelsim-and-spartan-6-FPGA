@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "Lock_SD.ngc" Lock_SD.ngd  
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/lab8/Lock_SD.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/lab8/Lock_SD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc task2.ucf -p xc6slx9-csg324-3 "Lock_SD.ngc" Lock_SD.ngd  

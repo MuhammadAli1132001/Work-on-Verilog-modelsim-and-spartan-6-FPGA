@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Muhammad Ali khan\DSD\lab8\task2.ncd
+OUTFILE=C:\Users\Muhammad Ali khan\DSD\lab8\task2.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=C:\Users\Muhammad Ali khan\DSD\lab8
+LICENSE=WebPack
+USER_INFO=0_0_0

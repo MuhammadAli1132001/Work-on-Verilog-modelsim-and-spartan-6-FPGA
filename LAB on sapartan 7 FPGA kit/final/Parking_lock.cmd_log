@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "Parking_lock.ngc" Parking_lock.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Parking_lock_map.ncd Parking_lock.ngd Parking_lock.pcf 
+par -w -intstyle ise -ol high -mt off Parking_lock_map.ncd Parking_lock.ncd Parking_lock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Parking_lock.twx Parking_lock.ncd -o Parking_lock.twr Parking_lock.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "Parking_lock.ngc" Parking_lock.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Parking_lock_map.ncd Parking_lock.ngd Parking_lock.pcf 
+par -w -intstyle ise -ol high -mt off Parking_lock_map.ncd Parking_lock.ncd Parking_lock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Parking_lock.twx Parking_lock.ncd -o Parking_lock.twr Parking_lock.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "Parking_lock.ngc" Parking_lock.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Parking_lock_map.ncd Parking_lock.ngd Parking_lock.pcf 
+par -w -intstyle ise -ol high -mt off Parking_lock_map.ncd Parking_lock.ncd Parking_lock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Parking_lock.twx Parking_lock.ncd -o Parking_lock.twr Parking_lock.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.xst" -ofn "C:/Users/Muhammad Ali khan/DSD/final/Parking_lock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "Parking_lock.ngc" Parking_lock.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -global_opt off -mt off -ir off -pr off -lc off -power off -o Parking_lock_map.ncd Parking_lock.ngd Parking_lock.pcf 
+par -w -intstyle ise -ol high -mt off Parking_lock_map.ncd Parking_lock.ncd Parking_lock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Parking_lock.twx Parking_lock.ncd -o Parking_lock.twr Parking_lock.pcf 

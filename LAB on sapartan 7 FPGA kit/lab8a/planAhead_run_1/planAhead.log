@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v12.3
+# Build 101344 by hdbuild on Sat Sep  4 00:26:34 MDT 2010
+# Start of session at: Wed Jun 22 23:46:58 2022
+# Process ID: 11300
+# Log file: C:/Users/Muhammad Ali khan/DSD/lab8a/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Muhammad Ali khan/DSD/lab8a/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.3\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source {C:/Users/Muhammad Ali khan/DSD/lab8a/pa.fromNetlist.tcl}
+# create_project -name lab8a -dir "C:/Users/Muhammad Ali khan/DSD/lab8a/planAhead_run_1" -part xc6slx9ftg256-2
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Muhammad Ali khan/DSD/lab8a/Lock_SD.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Muhammad Ali khan/DSD/lab8a} }
+# set_param project.pinAheadLayout  yes
+# set_param project.paUcfFile  "Lock_SD.ucf"
+# add_files "Lock_SD.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Run is defaulting to constrset part: xc6slx9ftg256-2
+INFO: [HD-EDIFIN 0] Parsing Edif File '.\.HDI-PlanAhead-11300-DESKTOP-I9MQBNU\ngc2edif\Lock_SD.edif'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File '.\.HDI-PlanAhead-11300-DESKTOP-I9MQBNU\ngc2edif\Lock_SD.edif'
+INFO: [HD-Unisim Transformer 0] Analyzing 1 legacy Unisim elements for replacement
+INFO: [HD-Unisim Transformer 1] No Unisim elements were transformed.
+WARN: [HD-NETLIST 3] Netlist 'Lock_SD' is not ideal for floorplanning, since the cellview 'Lock_SD' defined in file 'Lock_SD.ngc' contains large number of primitives. Please consider enabling hierarchy in synthesis before floorplan. You can enable hierarchy in XST by setting '-keep_hierarchy=yes' or '-netlist_hierarchy=rebuilt' flags.
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/spartan6lx/xc6slx9/ftg256/Package.xml
+INFO: [HD-ArchReader 13] Loading package pin functions from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/PinFunctions.xml...
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/IOStandards.xml
+INFO: [HD-ArchReader 12] Loading device configuration modes from C:/Xilinx/12.3/ISE_DS/PlanAhead/parts/xilinx/spartan6/ConfigModes.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\Lock_SD.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\Lock_SD.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.3 by hdbuild
+          on  Sat Sep  4 00:26:34 MDT 2010
+  Report: by Muhammad Ali khan on host DESKTOP-I9MQBNU, pid 11300
+          on Wed Jun 22 23:47:10 2022
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 0
+
+REPORT DETAILS
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.3/ISE_DS/PlanAhead/./parts/xilinx/spartan6/spartan6.lib .
+set_property IOSTANDARD LVCMOS33 [get_ports {seg7[6]} {seg7[5]} {seg7[4]} {seg7[3]} {seg7[2]} {seg7[1]} {seg7[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {seg7[6]} {seg7[5]} {seg7[4]} {seg7[3]} {seg7[2]} {seg7[1]} {seg7[0]}]
+save_design
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab7.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="L2P.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="L2P.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="L2P.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="L2P.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="L2P.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="L2P.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="L2P.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="L2P.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="L2P.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="L2P.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="L2P.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="L2P.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="L2P.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="L2P.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="L2P.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="L2P.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="L2P_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="L2P_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="L2P_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="L2P_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="L2P_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="L2P_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="L2P_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="L2P_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="L2P_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="L2P_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="leveltopulseconverter.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="leveltopulseconverter.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="leveltopulseconverter.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="leveltopulseconverter.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="leveltopulseconverter.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="leveltopulseconverter.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="leveltopulseconverter.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="leveltopulseconverter.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="leveltopulseconverter.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="leveltopulseconverter.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="leveltopulseconverter.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="leveltopulseconverter.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="leveltopulseconverter.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="leveltopulseconverter.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="leveltopulseconverter.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="leveltopulseconverter.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="leveltopulseconverter.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="leveltopulseconverter.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="leveltopulseconverter.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="leveltopulseconverter.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="leveltopulseconverter.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="leveltopulseconverter.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="leveltopulseconverter.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="leveltopulseconverter_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="leveltopulseconverter_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="leveltopulseconverter_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="leveltopulseconverter_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="leveltopulseconverter_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="leveltopulseconverter_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="leveltopulseconverter_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="leveltopulseconverter_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="leveltopulseconverter_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="leveltopulseconverter_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="leveltopulseconverter_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="leveltopulseconverter_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="leveltopulseconverter_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="leveltopulseconverter_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="leveltopulseconverter_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1654149521" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1654149521">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654342822" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-209906413782245711" xil_pn:start_ts="1654342822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654342822" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2379536961836640462" xil_pn:start_ts="1654342822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654149521" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1654149521">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654342822" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4034250850246888461" xil_pn:start_ts="1654342822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654149521" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745293037926" xil_pn:start_ts="1654149521">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654342822" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3625232488162618564" xil_pn:start_ts="1654342822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654887233" xil_pn:in_ck="5045370776756296384" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-8080358242527810687" xil_pn:start_ts="1654887227">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.lso"/>
+      <outfile xil_pn:name="leveltopulseconverter.ngc"/>
+      <outfile xil_pn:name="leveltopulseconverter.ngr"/>
+      <outfile xil_pn:name="leveltopulseconverter.prj"/>
+      <outfile xil_pn:name="leveltopulseconverter.stx"/>
+      <outfile xil_pn:name="leveltopulseconverter.syr"/>
+      <outfile xil_pn:name="leveltopulseconverter.xst"/>
+      <outfile xil_pn:name="leveltopulseconverter_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1654744898" xil_pn:in_ck="-2720958077839617112" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7747469931727549922" xil_pn:start_ts="1654744898">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1654887252" xil_pn:in_ck="-1502684814596250274" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6356395311223964339" xil_pn:start_ts="1654887248">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.bld"/>
+      <outfile xil_pn:name="leveltopulseconverter.ngd"/>
+      <outfile xil_pn:name="leveltopulseconverter_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1654887258" xil_pn:in_ck="-2414478912213237056" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="5670512820319242333" xil_pn:start_ts="1654887252">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.pcf"/>
+      <outfile xil_pn:name="leveltopulseconverter_map.map"/>
+      <outfile xil_pn:name="leveltopulseconverter_map.mrp"/>
+      <outfile xil_pn:name="leveltopulseconverter_map.ncd"/>
+      <outfile xil_pn:name="leveltopulseconverter_map.ngm"/>
+      <outfile xil_pn:name="leveltopulseconverter_map.xrpt"/>
+      <outfile xil_pn:name="leveltopulseconverter_summary.xml"/>
+      <outfile xil_pn:name="leveltopulseconverter_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1654887270" xil_pn:in_ck="-1594000104622899246" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1654887258">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.ncd"/>
+      <outfile xil_pn:name="leveltopulseconverter.pad"/>
+      <outfile xil_pn:name="leveltopulseconverter.par"/>
+      <outfile xil_pn:name="leveltopulseconverter.ptwx"/>
+      <outfile xil_pn:name="leveltopulseconverter.unroutes"/>
+      <outfile xil_pn:name="leveltopulseconverter.xpi"/>
+      <outfile xil_pn:name="leveltopulseconverter_pad.csv"/>
+      <outfile xil_pn:name="leveltopulseconverter_pad.txt"/>
+      <outfile xil_pn:name="leveltopulseconverter_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1654886767" xil_pn:in_ck="2926049124439705232" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="335873702051717080" xil_pn:start_ts="1654886759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.bgn"/>
+      <outfile xil_pn:name="leveltopulseconverter.bit"/>
+      <outfile xil_pn:name="leveltopulseconverter.drc"/>
+      <outfile xil_pn:name="leveltopulseconverter.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1654887270" xil_pn:in_ck="7261877530971708472" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1654887265">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="leveltopulseconverter.twr"/>
+      <outfile xil_pn:name="leveltopulseconverter.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>
